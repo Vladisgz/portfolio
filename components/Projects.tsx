@@ -4,7 +4,7 @@ import Image from "next/image";
 import { VscProject } from "react-icons/vsc";
 
 import coffeeProject from "../public/img/projects/Coffee.png";
-import portfolioSite from "../public/img/projects/PortfolioSite.png";
+import portfolioSite from "../public/img/projects/Vladislav-Khorenko-Frontend-Dev.png";
 import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
