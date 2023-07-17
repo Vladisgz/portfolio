@@ -21,7 +21,7 @@ const Projects = () => {
         <ProjectCard
           img={portfolioSite.src}
           title="Portfolio Site"
-          link="https://www.starbucks.com/menu"
+          link="https://github.com/Vladisgz/portfolio"
         />
       </div>
     </div>
