@@ -13,7 +13,11 @@ const Projects = () => {
       {/* <Title text='Projects' icon={<VscProject/>}/> */}
       <Title text="Проекты" icon={<VscProject />} />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center">
-        <ProjectCard img={coffeeProject.src} title="Coffee Shops" link="/" />
+        <ProjectCard
+          img={coffeeProject.src}
+          title="Coffee Shops"
+          link="https://github.com/Vladisgz/coffee-site"
+        />
         <ProjectCard
           img={portfolioSite.src}
           title="Portfolio Site"
