@@ -6,6 +6,7 @@ import { VscProject } from "react-icons/vsc";
 import coffeeProject from "../public/img/projects/Coffee.png";
 import portfolioSite from "../public/img/projects/Vladislav-Khorenko-Frontend-Dev.png";
 import ProjectCard from "./ProjectCard";
+import projectSite from "../public/img/projects/Easy-shopping-by-Vladis.png";
 
 const Projects = () => {
   return (
@@ -22,6 +23,11 @@ const Projects = () => {
           img={portfolioSite.src}
           title="Portfolio Site"
           link="https://github.com/Vladisgz/portfolio"
+        />
+        <ProjectCard
+          img={projectSite.src}
+          title="Project Site"
+          link="https://github.com/Vladisgz/siteproject.git"
         />
       </div>
     </div>
