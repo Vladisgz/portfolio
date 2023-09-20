@@ -6,7 +6,6 @@ import SkillsInput from './SkillsInput'
 const Skills = () => {
   return (
     <div className='wrapper'>
-        {/* <Title text='Skills' icon={<GiSkills/>}/> */}
         <Title text='Навыки' icon={<GiSkills/>}/>
         <div className='flex gap-4 flex-wrap'>
             <SkillsInput title='JavaScript' link='https://developer.mozilla.org/ru/docs/Web/JavaScript'/>

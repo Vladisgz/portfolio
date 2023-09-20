@@ -1,6 +1,5 @@
 import React from "react";
 import Title from "./Title";
-import Image from "next/image";
 import { VscProject } from "react-icons/vsc";
 
 import coffeeProject from "../public/img/projects/Coffee.png";
@@ -11,7 +10,6 @@ import projectSite from "../public/img/projects/Easy-shopping-by-Vladis.png";
 const Projects = () => {
   return (
     <div className="wrapper">
-      {/* <Title text='Projects' icon={<VscProject/>}/> */}
       <Title text="Проекты" icon={<VscProject />} />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center">
         <ProjectCard

@@ -1,5 +1,4 @@
 import React from "react";
-// import {BsBoxArrowInUpRight} from 'react-icons/bs'
 import SocialLinks from "./SocialLinks";
 
 const Contacs = () => {
@@ -12,19 +11,13 @@ const Contacs = () => {
           работе.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {/* <a href="https://samara.hh.ru/applicant/resumes/view?resume=5c9edeaeff09594e510039ed1f6f527852636a">
-                  <button className='w-40 h-12 bg-gradient-to-r from-blue-600 via-blue-700 to-indigo-950 text-xl font-bold text-white rounded-lg hover:from-indigo-950 hover:to-blue-600 duration-300'>Резюме</button>
-              </a> */}
           <a href="mailto:pmvladi@yandex.ru">
-            {/* <button className="w-40 h-12 bg-gradient-to-r from-blue-600 via-blue-700 to-indigo-950 text-xl font-bold text-white rounded-lg hover:from-indigo-950 hover:to-blue-600 duration-300"> */}
-            {/* <button className="w-40 h-12 bg-gradient-to-r from-transparent via-transparent to-slate-800 text-xl font-bold text-white rounded-lg hover:from-indigo-950 hover:to-blue-600 duration-300"> */}
             <button className="w-40 h-12 bg-gradient-to-r from-gray-800 via-gray-900 to-gray-950 text-xl font-bold text-white rounded-lg hover:from-orange-950 hover:to-orange-800 duration-300">
               Email
             </button>
           </a>
           <a href="tel:89198044708">
             <button className="w-40 h-12 bg-gradient-to-l from-gray-800 via-gray-900 to-gray-950 text-xl font-bold text-white rounded-lg hover:from-orange-950 hover:to-orange-800 duration-300">
-              {/* <button className="w-40 h-12 bg-gradient-to-r from-blue-600 via-blue-700 to-indigo-950 text-xl font-bold text-white rounded-lg hover:from-indigo-950 hover:to-blue-600 duration-300"> */}
               Позвонить
             </button>
           </a>
