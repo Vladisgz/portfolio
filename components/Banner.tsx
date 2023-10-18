@@ -12,9 +12,7 @@ const Banner = () => {
         />
       </div>
       <div className="w-3/4 flex flex-col items-center md:items-start gap-2">
-        <h1 className="text-3xl sm:text-5xl font-bold text-white">
-          Владислав Хоренко
-        </h1>
+        <h1 className="text-3xl font-bold text-white">Владислав Хоренко</h1>
         <h3 className="text-sm md:text-base font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-300 via-red-300 to-indigo-300 tracking-wide">
           30 лет. Самара
         </h3>
