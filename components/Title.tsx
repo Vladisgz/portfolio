@@ -7,10 +7,10 @@ interface Props {
 
 const Title = ({ text, icon }: Props) => {
   return (
-    <div className="flex items-center gap-3 text-2xl group pb-8">
-      <h3 className="font-semibold relative overflow-hidden">
+    <div className="flex items-center gap-3 text-2xl pb-8">
+      <h3 className="font-semibold relative group overflow-hidden cursor-pointer">
         {text}
-        <span className="w-full h-[2px] absolute bottom-0 left-0 inline-block bg-orange-400 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-400"></span>
+        <span className="w-full h-[2px] absolute bottom-0 left-1/2 transform -translate-x-1/2 inline-block bg-orange-400 scale-x-0 group-hover:scale-x-100 transition-transform duration-700"></span>
       </h3>
       <span className="text-orange-400">{icon}</span>
     </div>

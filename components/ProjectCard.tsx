@@ -1,28 +1,42 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 import Image from "next/image";
 
 interface Props {
-  title: string;
-  link: string;
   img: string;
+  gitLink: string;
 }
 
-const ProjectCard = ({ title, link, img }: Props) => {
+const ProjectCard = ({ img, gitLink }: Props) => {
+  const [isHovered, setIsHovered] = useState(false);
+
   return (
-    <a href={link} target="_blank" rel="noreferrer">
-      <div className="w-80 h-80  overflow-hidden relative rounded-lg group">
-        <Image
-          className="object-cover translate-y-0 group-hover:-translate-y-[20%] transition-transform duration-[3s]"
-          width={350}
-          height={350}
-          src={img}
-          alt=""
-        />
-        <p className="absolute hidden group-hover:inline-block bottom-0 w-full py-1 bg-orange-700 text-white text-center font-semibold duration-500">
-          {title}
-        </p>
+    <div className="relative w-80 h-80 group overflow-hidden rounded-lg">
+      <Image
+        src={img}
+        alt="Product"
+        width={350}
+        height={350}
+        objectFit="cover"
+        className="group-hover:blur-sm"
+      />
+      <div
+        className={`absolute inset-0 flex flex-col items-center justify-center  ${
+          isHovered ? "bottom-0 opacity-100 " : "opacity-0"
+        }`}
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+      >
+        <div className="flex flex-col gap-4">
+          <button className="bg-black text-white px-6 py-2 hover:bg-gray-700 rounded-lg bg-gradient-to-l from-gray-800 via-gray-900 to-gray-950 hover:from-orange-950 hover:to-orange-800 duration-500 focus:shadow-outline transform transition-transform ease-in-out hover:scale-110">
+            <a href={gitLink} target="_blank" rel="noopener noreferrer">
+              GIT
+            </a>
+          </button>
+        </div>
       </div>
-    </a>
+    </div>
   );
 };
 

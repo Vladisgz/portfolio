@@ -14,18 +14,15 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center">
         <ProjectCard
           img={coffeeProject.src}
-          title="Coffee Shops"
-          link="https://github.com/Vladisgz/coffee-site"
+          gitLink="https://github.com/Vladisgz/coffee-site"
         />
         <ProjectCard
           img={portfolioSite.src}
-          title="Portfolio Site"
-          link="https://github.com/Vladisgz/portfolio"
+          gitLink="https://github.com/Vladisgz/portfolio"
         />
         <ProjectCard
           img={projectSite.src}
-          title="Project Site"
-          link="https://github.com/Vladisgz/siteproject.git"
+          gitLink="https://github.com/Vladisgz/siteproject.git"
         />
       </div>
     </div>
