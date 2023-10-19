@@ -6,7 +6,7 @@ const Aboutme = () => {
   return (
     <div className="wrapper">
       <Title text="Обо мне" icon={<SiInformatica />} />
-      <div className="text-lg tracking-wide flex flex-col gap-6">
+      <div className="text-base md:text-lg tracking-wide flex flex-col gap-6">
         <p>
           Frontend-разработчик с 2-летним опытом коммерческой разработки на
           React. Обладаю набором знаний и навыками в следующих областях:

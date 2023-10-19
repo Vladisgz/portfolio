@@ -8,14 +8,12 @@ const Education = () => {
   return (
     <div className="wrapper">
       <Title text="Образование" icon={<IoSchoolSharp />} />
-      <div className="">
-        <EducationCard
-          title="Самарский Государственный Технический Университет"
-          subTitle="Факультет Автоматики и Информационных Технологий (Магистр)"
-          yearEd="2010 - 2016"
-          icon={<FaUniversity />}
-        />
-      </div>
+      <EducationCard
+        title="СамГТУ"
+        subTitle="ФАИТ (Магистр)"
+        yearEd="2010 - 2016"
+        icon={<FaUniversity />}
+      />
     </div>
   );
 };

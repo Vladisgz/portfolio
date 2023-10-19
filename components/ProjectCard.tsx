@@ -12,13 +12,12 @@ const ProjectCard = ({ img, gitLink }: Props) => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <div className="relative w-80 h-80 group overflow-hidden rounded-lg">
+    <div className="relative w-72 h-72 md:w-80 md:h-80 group overflow-hidden rounded-lg">
       <Image
         src={img}
         alt="Product"
         width={350}
         height={350}
-        objectFit="cover"
         className="group-hover:blur-sm"
       />
       <div
