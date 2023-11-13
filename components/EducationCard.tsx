@@ -14,13 +14,11 @@ const EducationCard = ({ title, subTitle, icon, yearEd }: Props) => {
         <span className="text-2xl md:text-3xl">{icon}</span>
       </div>
       <div className="">
-        <h3 className="text-xl md:text-2xl tracking-wide font-bold ">
-          {title}
-        </h3>
-        <p className="text-base md:text-lg tracking-wide text-gray-400">
+        <h3 className="text-lg md:text-xl tracking-wide font-bold ">{title}</h3>
+        <p className="text-sm md:text-base tracking-wide text-gray-400">
           {subTitle}
         </p>
-        <p className="text-base md:text-lg tracking-wide text-gray-400">
+        <p className="text-sm md:text-base tracking-wide text-gray-400">
           {yearEd}
         </p>
       </div>

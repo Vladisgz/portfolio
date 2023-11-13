@@ -29,10 +29,6 @@ const Contacs = () => {
         <SocialLinks title="GitHub" link="https://github.com/Vladisgz" />
         <SocialLinks title="Telegram" link="https://t.me/tattooedvl" />
         <SocialLinks
-          title="Linkedin"
-          link="https://www.linkedin.com/in/vladislav-khorenko-39610125b/"
-        />
-        <SocialLinks
           title="Резюме"
           link="https://samara.hh.ru/resume/44db77c0ff0c24da390039ed1f545471663347"
         />

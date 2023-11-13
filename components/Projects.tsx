@@ -23,6 +23,7 @@ const Projects = () => {
         <ProjectCard
           img={projectSite.src}
           gitLink="https://github.com/Vladisgz/siteproject.git"
+          demoLink="https://siteproject-liard.vercel.app/"
         />
       </div>
     </div>

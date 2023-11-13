@@ -6,9 +6,10 @@ import Image from "next/image";
 interface Props {
   img: string;
   gitLink: string;
+  demoLink?: string;
 }
 
-const ProjectCard = ({ img, gitLink }: Props) => {
+const ProjectCard = ({ img, gitLink, demoLink }: Props) => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
@@ -28,11 +29,18 @@ const ProjectCard = ({ img, gitLink }: Props) => {
         onMouseLeave={() => setIsHovered(false)}
       >
         <div className="flex flex-col gap-4">
-          <button className="bg-black text-white px-6 py-2 hover:bg-gray-700 rounded-lg bg-gradient-to-l from-gray-800 via-gray-900 to-gray-950 hover:from-orange-950 hover:to-orange-800 duration-500 focus:shadow-outline transform transition-transform ease-in-out hover:scale-110">
+          <button className="px-4 py-2 bg-gradient-to-r from-gray-800 via-gray-900 to-gray-950 tracking-wide text-white rounded-lg hover:from-orange-950 hover:to-orange-800 focus:shadow-outline transition-transform ease-in-out hover:scale-110 duration-500">
             <a href={gitLink} target="_blank" rel="noopener noreferrer">
               GIT
             </a>
           </button>
+          {demoLink && (
+            <button className="px-4 py-2 bg-gradient-to-r from-gray-800 via-gray-900 to-gray-950 tracking-wide text-white rounded-lg hover:from-orange-950 hover:to-orange-800 focus:shadow-outline transition-transform ease-in-out hover:scale-110 duration-500">
+              <a href={demoLink} target="_blank" rel="noopener noreferrer">
+                Demo
+              </a>
+            </button>
+          )}
         </div>
       </div>
     </div>

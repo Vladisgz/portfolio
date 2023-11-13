@@ -14,8 +14,10 @@ const LanguageCard = ({ title, subTitle, icon }: Props) => {
       </span>
 
       <div>
-        <h3 className="text-xl tracking-wide md:text-2xl font-bold">{title}</h3>
-        <p className="text-base tracking-wide text-gray-400">{subTitle}</p>
+        <h3 className="text-lg tracking-wide md:text-xl font-bold">{title}</h3>
+        <p className="text-sm md:text-base tracking-wide text-gray-400">
+          {subTitle}
+        </p>
       </div>
     </div>
   );
