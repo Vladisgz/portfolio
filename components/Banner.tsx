@@ -16,7 +16,7 @@ const Banner = () => {
           Владислав Хоренко
         </h1>
         <h3 className="text-base md:text-lg font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-300 via-red-300 to-indigo-300 tracking-wide">
-          31 лет. Самара
+          31 год. Самара
         </h3>
         <h3 className="text-base md:text-xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-300 via-red-300 to-indigo-300 tracking-wide">
           Frontend - Разработчик

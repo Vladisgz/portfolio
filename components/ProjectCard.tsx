@@ -13,7 +13,7 @@ const ProjectCard = ({ img, gitLink, demoLink }: Props) => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <div className="relative w-72 h-72 md:w-80 md:h-80 group overflow-hidden rounded-lg">
+    <div className="relative w-72 h-72 md:w-80 md:h-64 group overflow-hidden rounded-lg">
       <Image
         src={img}
         alt="Product"
