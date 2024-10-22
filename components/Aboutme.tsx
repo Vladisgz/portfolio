@@ -11,15 +11,14 @@ const Aboutme = () => {
           Frontend-разработчик с двухлетним опытом разработки на React. Обладаю
           набором знаний и навыков в следующих областях:
           <br />
-          <br />• Языки программирования: HTML5, CSS3, JS, NodeJS.
-          <br />• Фреймворки и библиотеки: React, NextJS, TailwindCSS.
-          <br />• Базы данных: MongoDB (базовый уровень).
+          <br />• Языки программирования: HTML5, CSS3, JavaScript, TypeScript.
+          <br />• Фреймворки и библиотеки: React, NextJS, TailwindCSS, Sanity.
+          <br />• Базы данных: MongoDB, GraphQL, Hasura.
           <br />• Инструменты и технологии: Git, Axios, Express, Google
           Firebase, Stripe, RESTful API.
         </p>
         <p>
-          Готов к эфеективному сотрудничеству в команде, развивая как себя, так
-          и продукт.
+          Помогу создать продукт с нуля. Проведу оптимизацию уже готового решения.
         </p>
       </div>
     </div>

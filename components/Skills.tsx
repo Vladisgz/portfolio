@@ -17,7 +17,9 @@ const Skills = () => {
             <SkillsInput title='NextJS' link='https://nextjs.org/'/>
             <SkillsInput title='NodeJS' link='https://nodejs.org/en'/>
             <SkillsInput title='MongoDB' link='https://www.mongodb.com/'/>
-            <SkillsInput title='VS Code' link='https://code.visualstudio.com/'/>
+            <SkillsInput title='GraphQL' link=''/>
+            <SkillsInput title='Hasura' link=''/>
+            <SkillsInput title='Docker' link=''/>
             <SkillsInput title='Adobe Photoshop' link='https://www.adobe.com/ru/products/photoshop.html'/>
             <SkillsInput title='Figma' link='https://www.figma.com/'/>
         </div>

@@ -4,7 +4,7 @@ import { MdWorkHistory } from "react-icons/md";
 import { SiSparkar } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaReact } from "react-icons/fa";
-import { FcElectronics } from "react-icons/fc";
+import { FiGlobe } from "react-icons/fi";
 import ExperienceCard from "./ExperienceCard";
 
 const Experience = () => {
@@ -12,6 +12,12 @@ const Experience = () => {
     <div className="wrapper">
       <Title text="Опыт работы" icon={<MdWorkHistory />} />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <ExperienceCard
+          title="ISF Intevo"
+          subTitle="Fullstack-разработчик"
+          year="Январь 2024 - Сентябрь 2024"
+          icon={<FiGlobe />}
+        />
         <ExperienceCard
           title="Freelancer"
           subTitle="SparkAr Creator"
@@ -21,13 +27,13 @@ const Experience = () => {
         <ExperienceCard
           title="Freelancer"
           subTitle="Frontend-разработчик"
-          year="May 2020 - August 2021"
+          year="Май 2020 - Август 2021"
           icon={<IoLogoJavascript />}
         />
         <ExperienceCard
           title="Freelancer"
           subTitle="React Frontend-разработчик"
-          year="November 2022 - Present"
+          year="Ноябрь 2022 - По настоящее время"
           icon={<FaReact />}
         />
       </div>
